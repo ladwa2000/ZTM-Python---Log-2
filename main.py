@@ -14,13 +14,13 @@ print(int('0b1010', 2)) #10
 bodmas = ((23 * 2) + 15 - 3) / 3 #19.333... (float)
 print(bodmas)
 print(int(bodmas)) #To give integer value 
-print(round(bodmas))
+print(round(bodmas)) #To give integer value 
 
 #NB: When dividing data types, the output will return as a float for the most precise result as it does not round output to the nearest whole number, unless the use of round() and/or int() has been actioned
 
 first_name = 'Ajay'
 surname = 'Ladwa'
-print(first_name + ' ' + surname)
+print(first_name + ' ' + surname) #Ajay Ladwa
 
 d, e, f = 1, 5, 7
 print(d) #1
