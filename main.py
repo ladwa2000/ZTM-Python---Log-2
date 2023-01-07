@@ -1,7 +1,7 @@
 a = 100 - 23 #77 (int)
 b = 47 // 7 #6 (int)
 c = 68 % 9 #5 (int)
-x = 3*4 #12 (iny)
+x = 3*4 #12 (int)
 y = 2/4 #0.5 (float)
 z = 18 + 4 #22 (int)
 print(a, b, c, x, y, z)
