@@ -1,4 +1,4 @@
-#Expressions and Statements
+#Expressions vs Statements
 
 shares = int(input('Shares Run In: '))
 isc = int(input('ISC: '))
@@ -6,7 +6,7 @@ perc_isc = (shares / isc) * 100
 
 print(round(perc_isc, 2))
 
-#NB: Anything after '=' is an 'expression' and an entire line of code is a 'statement'
+#NB: An example of expressions vs statements is 'perc_isc = (shares / isc) * 100' is a statement, whereas, '(shares / isc) * 100' is an expression
 
 #Augmented Assignment Operators
 
